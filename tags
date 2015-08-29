@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Myapp
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Article	app/models/article.rb	/^class Article < ActiveRecord::Base$/;"	c
+ArticleTest	test/models/article_test.rb	/^class ArticleTest < ActiveSupport::TestCase$/;"	c
+ArticlesController	app/controllers/articles_controller.rb	/^class ArticlesController < ApplicationController$/;"	c
+ArticlesControllerTest	test/controllers/articles_controller_test.rb	/^class ArticlesControllerTest < ActionController::TestCase$/;"	c
+ArticlesHelper	app/helpers/articles_helper.rb	/^module ArticlesHelper$/;"	m
+Comment	app/models/comment.rb	/^class Comment < ActiveRecord::Base$/;"	c
+CommentTest	test/models/comment_test.rb	/^class CommentTest < ActiveSupport::TestCase$/;"	c
+CreateArticles	db/migrate/20150813152800_create_articles.rb	/^class CreateArticles < ActiveRecord::Migration$/;"	c
+CreateComments	db/migrate/20150829172244_create_comments.rb	/^class CreateComments < ActiveRecord::Migration$/;"	c
+Myapp	config/application.rb	/^module Myapp$/;"	m
+WelcomeController	app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
+WelcomeControllerTest	test/controllers/welcome_controller_test.rb	/^class WelcomeControllerTest < ActionController::TestCase$/;"	c
+WelcomeHelper	app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
+article_params	app/controllers/articles_controller.rb	/^    def article_params$/;"	f	class:ArticlesController
+change	db/migrate/20150813152800_create_articles.rb	/^  def change$/;"	f	class:CreateArticles
+change	db/migrate/20150829172244_create_comments.rb	/^  def change$/;"	f	class:CreateComments
+create	app/controllers/articles_controller.rb	/^  def create$/;"	f	class:ArticlesController
+destroy	app/controllers/articles_controller.rb	/^  def destroy$/;"	f	class:ArticlesController
+edit	app/controllers/articles_controller.rb	/^  def edit$/;"	f	class:ArticlesController
+index	app/controllers/articles_controller.rb	/^  def index$/;"	f	class:ArticlesController
+index	app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
+new	app/controllers/articles_controller.rb	/^  def new$/;"	f	class:ArticlesController
+show	app/controllers/articles_controller.rb	/^  def show$/;"	f	class:ArticlesController
+update	app/controllers/articles_controller.rb	/^  def update$/;"	f	class:ArticlesController
