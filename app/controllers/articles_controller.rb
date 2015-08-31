@@ -1,4 +1,6 @@
 class ArticlesController < ApplicationController
+  http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
+
   def new
     # エラーでnewに来た時にエラー内容が表示されるように
     @article = Article.new
